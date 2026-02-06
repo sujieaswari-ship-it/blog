@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Blog | Illuminate the Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bg-primary': '#0a0a0c',
+              'bg-secondary': '#141417',
+              'accent-primary': '#6366f1',
+              'accent-secondary': '#818cf8',
+              'text-primary': '#f8fafc',
+              'text-secondary': '#94a3b8',
+              'border-color': 'rgba(255, 255, 255, 0.1)',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
